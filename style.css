@@ -1,0 +1,56 @@
+h1{
+    color: #000000;
+    font: 1em Painting With Chocolate;
+    font-size: xx-large;
+}
+
+.header{
+    background-color:#8fe9a3;
+    display:flex;
+    justify-content: space-between; 
+}
+.header *{
+
+    margin-left: 70px;
+
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p, h2{
+    text-align: center;
+    font: 1em Kick The Font;
+    font-size: x-large;
+}
+body{
+    background-color: #a1c3f1;
+}
+a:link{
+    color:orange;
+}
+a:visited{
+   color: green;
+}
+.menu1 a{
+    margin-left: 20px;
+}
+.item{
+    position:relative;
+    margin-left: 30px;
+} 
+.item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+opacity:0.33;
+}
